@@ -1,8 +1,12 @@
 # Credit_Risk_Analysis
 
 
+
 Overview:
+
+
 -	The purpose of this analysis was to assess the credit risk of potential borrowers by evaluating data provided by LendingClub (a peer-to-peer lending services company). This was achieved by testing the accuracy of multiple models built with statistical data analysis and machine learning techniques.
+
 
 -	This project includes 6 statistical concepts:
 o	4 Sampling Techniques
@@ -16,7 +20,10 @@ o	2 Models that Reduce Bias
   	EasyEnsembleClassifier
   
   
+  
 Results:
+
+
 -	The first oversampling approach leveraged the RandomOverSampler concept to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
   o	The balanced accuracy score indicates the model is accurate 64.44% of the time.
   o	The precision score of the low-risk loans was 100%, while it was only 1% for the high-risk loans.
@@ -67,5 +74,8 @@ Results:
 ![image](https://user-images.githubusercontent.com/96176817/167279647-15911ea5-983b-47ba-ac17-cb32a4cf0c02.png)
 
 
+
 Summary:
+
+
 -	In conclusion, the models did not provide enough proof to justify using them. However, the EasyEnsembleClassifier model was the most accurate based on its balanced accuracy, precision, and recall scores.
