@@ -5,7 +5,7 @@
 Overview:
 
 
--	The purpose of this analysis was to assess the credit risk of potential borrowers by evaluating data provided by LendingClub (a peer-to-peer lending services company). This was achieved by testing the accuracy of multiple models built with statistical data analysis and machine learning techniques.
+     The purpose of this analysis was to assess the credit risk of potential borrowers by evaluating data provided by LendingClub (a peer-to-peer lending services company). This was achieved by testing the accuracy of multiple models built with statistical data analysis and machine learning techniques.
 
 
 -	This project includes 6 statistical concepts:
@@ -32,7 +32,7 @@ o	2 Models that Reduce Bias
 Results:
 
 
--	The first oversampling approach leveraged the RandomOverSampler concept to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
+     The first oversampling approach leveraged the RandomOverSampler concept to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
 
   o	The balanced accuracy score indicates the model is accurate 64.44% of the time.
 
@@ -45,7 +45,7 @@ Results:
 ![image](https://user-images.githubusercontent.com/96176817/167279546-478a5119-4278-4a3a-a990-7f329edbd1f0.png)
 
 
--	The second oversampling approach leveraged the synthetic minority oversampling technique (SMOTE) to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
+     The second oversampling approach leveraged the synthetic minority oversampling technique (SMOTE) to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
 
   o	The balanced accuracy score indicates the model is accurate 63.70% of the time.
 
@@ -58,7 +58,7 @@ Results:
 ![image](https://user-images.githubusercontent.com/96176817/167279561-11052f5f-b0eb-4876-82b7-fae420df0fee.png)
 
 
--	The undersampling approach leveraged ClusterCentroids to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
+     The undersampling approach leveraged ClusterCentroids to resample the data to illustrate the minority class subset of data used in the logistic regression model to examine dichotomous outcome variables.
 
   o	The balanced accuracy score indicates the model is accurate 52.93% of the time.
 
@@ -75,7 +75,7 @@ Results:
 ![image](https://user-images.githubusercontent.com/96176817/167279578-bac3ac50-6f89-4714-92e6-48b20efd1d22.png)
 
 
--	The combined approach leveraged the SMOTEENN (SMOTE and Edited Nearest Neighbors (ENN) algorithms combined) to remove outliers and resample the data to be used in the logistic regression model to examine dichotomous outcome variables.
+     The combined approach leveraged the SMOTEENN (SMOTE and Edited Nearest Neighbors (ENN) algorithms combined) to remove outliers and resample the data to be used in the logistic regression model to examine dichotomous outcome variables.
 
   o	The balanced accuracy score indicates the model is accurate 63.76% of the time.
 
@@ -92,7 +92,7 @@ Results:
 ![image](https://user-images.githubusercontent.com/96176817/167279592-c38169e5-b0d0-4c7d-96cf-2ccb8c2603bf.png)
 
 
--	The first bias reducing model leveraged BalancedRandomForestClassifier to create decision trees used to assess the data.
+     The first bias reducing model leveraged BalancedRandomForestClassifier to create decision trees used to assess the data.
 
   o	The balanced accuracy score indicates the model is accurate 78.77% of the time.
 
@@ -111,7 +111,7 @@ Results:
 ![image](https://user-images.githubusercontent.com/96176817/167279628-f36d15bd-7891-45fb-8aa4-c399d5c04e02.png)
 
 
--	The second bias reducing model leveraged EasyEnsembleClassifier to implement the concept of Adaptive boosting. This technique uses an error reduction process.
+     The second bias reducing model leveraged EasyEnsembleClassifier to implement the concept of Adaptive boosting. This technique uses an error reduction process.
 
   o	The balanced accuracy score indicates the model is accurate 92.54% of the time.
 
@@ -128,4 +128,4 @@ Results:
 Summary:
 
 
--	In conclusion, the models did not provide enough proof to justify using them. However, the EasyEnsembleClassifier model was the most accurate based on its balanced accuracy, precision, and recall scores.
+     In conclusion, the models did not provide enough proof to justify using them. However, the EasyEnsembleClassifier model was the most accurate based on its balanced accuracy, precision, and recall scores.
