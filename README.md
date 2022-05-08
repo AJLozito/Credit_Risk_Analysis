@@ -43,6 +43,7 @@ Results:
   o	The precision score of the low-risk loans was 100%, while it was only 1% for the high-risk loans.
   o	The recall scores were somewhat consistent.
     	High-risk loans = 61.00%
+
     	Low-risk loans = 45.00%
 ![image](https://user-images.githubusercontent.com/96176817/167279576-d3837b91-358f-4145-ade8-6118d1d6f423.png)
 ![image](https://user-images.githubusercontent.com/96176817/167279578-bac3ac50-6f89-4714-92e6-48b20efd1d22.png)
